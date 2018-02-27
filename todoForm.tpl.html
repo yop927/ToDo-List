@@ -1,0 +1,18 @@
+<form name = "todoForm" ng-submit="add(newTodoTitle)">
+        <div class= "input-group">
+          <!-- autofocus = mouse cursor automatically placed on here-->
+          <input type = "text" class= "form-control" ng-model="newTodoTitle"
+          placeholder = "Create a new To-do..."
+          minlength = 3>
+          <span class="input-group-btn">
+            <!-- create a submit type tag-->
+            <button class = "btn btn-success" type = "submit"> Add </button>
+          </span>
+        </div>
+        <!-- putting a condition where $dirty is true and also invalid-->
+        <!-- this message appears only when a user put less than 3 letters -->
+        <!-- dirty = return true is the form was already used -->
+        <div ng-show = "todoForm.$dirty && todoForm.$invalid">
+           <div class = "alert alert-warning" role="alert"> put more than 3 words</div> 
+        </div>
+</form>
