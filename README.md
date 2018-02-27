@@ -19,9 +19,9 @@ Moreover, there is a timestamp shown below every taskbar. This is generated when
 I used Date.now() JavaScript function, therefore, it will put the time when the task was created.
 
 There are three buttons given on the bottom of the page.
-* 'Completed'
-*'Active'
-* 'All'
+1. 'Completed'
+2. 'Active'
+3. 'All'
 
 'Completed' button --> it will filter the list and show the ones that has a check on the
 checkbox, which means the task is completed.
