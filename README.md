@@ -25,7 +25,9 @@ There are three buttons given on the bottom of the page.
 
 'Completed' button --> it will filter the list and show the ones that has a check on the
 checkbox, which means the task is completed.
+
 'Active' button --> it will show the ones that have not been completed yet, and the
+
 'All' button  --> just show all of the task on the page.
 
 I Also tried to focus on grouping the lines of code that perform similar tasks.
